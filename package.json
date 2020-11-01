@@ -1,12 +1,13 @@
 {
-  "name": "electron-quick-start",
+  "name": "dormammu",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/namse/dormammu",
   "keywords": [
     "Electron",
     "quick",
@@ -17,6 +18,11 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^10.1.5"
+    "electron": "^10.1.5",
+    "electron-packager": "^15.1.0"
+  },
+  "dependencies": {
+    "electron-prompt": "^1.6.0",
+    "electron-store": "^6.0.1"
   }
 }
