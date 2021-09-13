@@ -22,7 +22,7 @@
     "electron-packager": "^15.1.0"
   },
   "dependencies": {
-    "electron-prompt": "^1.6.0",
+    "electron-prompt": "^1.7.0",
     "electron-store": "^6.0.1"
   }
 }
